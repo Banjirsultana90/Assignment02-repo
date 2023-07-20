@@ -12,7 +12,7 @@
 
 /* nav style starts */
 .nav-container{
-    min-height: 50px;
+    min-height: 70px;
     display: flex;
     max-width: 1400px;
   padding-left: 100px;
@@ -207,10 +207,13 @@ width:50%;
 .online-cards{
     display: grid;
     grid-template-columns:repeat(4,1fr);
+    gap:10px
     /* max-width: 1400px; */
     min-height: 400px;
     /* margin:50px auto 0px */
     width: 100%;
+    padding-left:90px;
+    padding-right:90px;
 }
     
             
@@ -325,16 +328,16 @@ padding-right: 150px;
 .game-types-container{
     display: flex;
     flex-wrap: wrap;
-   
+    /* /* height: 200px; */
+    */
     /* height: 250px; */
     /* justify-content: center;
     align-items: center; */
     gap: 20px;
-   padding-bottom: 50px;
+   padding-bottom: 30px;
    padding-left: 50px;
-
-    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%)
-
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+   /* padding-top: 10px; */
 }
 
 .box{
