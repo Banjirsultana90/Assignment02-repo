@@ -11,12 +11,8 @@
 /* nav style starts */
 .nav-container{
     min-height: 50px;
-   
     display: flex;
-  /* align-items: center; */
     max-width: 1400px;
-   /* margin: 0px auto; */
-   
   padding-left: 100px;
 
 
@@ -60,7 +56,7 @@
     height: 30px;
     border-radius: 5px;
     text-align: center;
-    font-size: ;
+    
     color: #3C354F;
     padding-top:5px ;
     margin: 17px;
@@ -188,13 +184,7 @@ width:50%;
    object-fit: cover;
     
    }
-    .overlay-design{
-    /* position: absolute; */
-    /* top:10%;
-    left:10%;  */
-    /* transform: translate(-50%,-50%); */
-    /* box-shadow: 0 10px 20px rgb(40,40,40); */
-    }
+   
             
    
    
@@ -279,7 +269,7 @@ margin: 50px;
     
 
 
-    left: 
+   
 
 }
 .gradient{
@@ -303,6 +293,7 @@ margin: 50px;
 .box{
     border: 1px solid transparent;
     display: flex;
+    
     gap: 10px;
     width: max-content;
     background: #FFF;
@@ -391,9 +382,9 @@ margin: 50px;
 .color{
    color: #FF42A5;
 }
-.last{
+
    
-}
+
 .border{
     display: flex;
 }
