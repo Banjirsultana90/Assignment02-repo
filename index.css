@@ -6,6 +6,8 @@
 
 *{
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 /* nav style starts */
@@ -59,6 +61,7 @@
     
     color: #3C354F;
     padding-top:5px ;
+    padding-left: 10px;
     margin: 17px;
 }
 .banner-container{
@@ -66,6 +69,7 @@
     min-height: 50px;
    width: 100%;
     display: flex;
+    
 
 }
 .banner-description{
@@ -73,34 +77,41 @@ width: 50%;
 background-image: url(./images/Group\ 14.png);
 background-color:linear-gradient(223deg, rgba(140, 87, 238, 0.03) 0%, rgba(241, 68, 174, 0.03) 100%);
 text-align: center;
-padding-bottom: 30px;
+padding-top: 70px;
+
 
 }
 #bold{
     font-size: 45px;
     font-weight: 800;
+    padding-bottom:10px ;
 }
 .banner-description h3{
 color: #0B0223;
 font-size: 22px;
 font-weight: 600;
-padding-top: 20px;
+/* padding-top: 20px; */
+padding-bottom: 10px;
 
 }
-#line{
-padding-top: 30px;
 
-}
 
 
 .texting{
    color: #534C64;
    font-size: 14px;
    font-weight: 500;
+   padding-bottom: 10px;
+   text-align: left;
+   padding-left: 260px;
 }
 .banner-image{
 width:50%;
 
+}
+.div{
+    padding-top: 20px;
+    gap: 20px;
 }
 .btn-2{
     background-color: #4EC5F7;
@@ -149,8 +160,13 @@ width:50%;
 .gamer-text p{
     font-size:12px ;
     font-weight:400 ;
-    color: #534C64;;
-}
+    color: #534C64;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}          
+
+    
+
 .unleash{
     color: #534C64;
     font-size: 18px;
@@ -175,6 +191,8 @@ width:50%;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding-top: 20px;
+    padding-bottom: 30px;
     
 }
 .online-text h1{
@@ -250,20 +268,25 @@ width:50%;
     width: 50%;
     margin-left: 200px;
     margin-right: 100px;
+    text-align: center;
+    /* padding-top: 100px; */
+    padding: 100px;
    
 }
 
 
 .play-text h1{
-    font-size: 48px;
+    font-size: 32px;
     font-weight: 700;
     color:#0B0223;
 
 }
 .play-text p{
     color: #534C64;
-    font-size:18px ;
+    font-size:14px ;
     font-weight:400 ;
+    padding-top: 15px;
+    
 
 }
 .play-image{
@@ -272,11 +295,13 @@ display: flex;
 justify-content: center;
 align-items: center;
 margin: 50px;
+padding-right: 150px;
 
 
 }
 .big{
     position: relative;
+    size: 110px;
 
 }
 .small{
@@ -337,12 +362,13 @@ margin: 50px;
     width: 30px;
 }
 .footer-container{
-  height: 350px;
+  height: 300px;
     background-color:  #0B0223; 
     color: white;
     /* max-width: 1400px; */
     margin: 0px auto;
     padding-bottom: 50px;
+    padding-top: 50px;
     width: 100%;
     
   
